@@ -620,8 +620,8 @@
 
   page.sameOrigin = sameOrigin;
 
-}).call(this,require('_process'))
-},{"_process":2,"path-to-regexp":3}],2:[function(require,module,exports){
+}).call(this,require('process'))
+},{"process":2,"path-to-regexp":3}],2:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
